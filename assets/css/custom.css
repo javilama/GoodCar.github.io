@@ -1,0 +1,93 @@
+/* ==================================================
+             COLORS
+================================================== */
+
+:root{
+
+    --blue-navy:#05205d;
+    --blue-ligth: #3155a7;
+    --brown-leather:#AB987A;
+    --orange-coral: #FFB33D;
+    --white-egg:#F5F5F5;
+    --blue-black:#0E0F13;
+}
+
+/* =============================================
+           HEADER 
+============================================= */
+
+.header-area{
+    
+    background-image: url("../img/misterious_car.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+.header-area .header-item{
+
+    color: var(--white-egg);
+}
+.section-one{
+    height: auto;
+}
+.section-one  .car-item{
+
+    height: 200px;
+    width: 70%;
+}
+.section-two h6{
+    font-weight: bold;
+    color: var(--blue-black);
+}
+.section-three{
+    color: white;
+}
+.section-three .sectionThree-container{
+ 
+    background-image: url("../img/red_car2.png");
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.section-four .paragraf-item{
+
+    color: var(--white-egg);
+    background-color: #EE1246;
+    height: 100px;
+}
+.section-four h6 {
+   color: var(--blue-black);
+}
+.section-four img{
+    width: 220px;
+    height: 220px;
+}
+ .section-four .item-info h5{
+    color: #0E0F13;
+
+}
+.footer-main {
+    background-color: var(--blue-black);
+}
+.footer-main h4, h6{
+
+    color: var(--white-egg);
+}
+.icon-item  .item-img{
+
+    weight:100px;
+    height: 150px;
+}
+.icon-item .color-item{
+    background-color: #F5F1F1;
+}
+.icon-item .fluid-item{
+    height: 200px;
+}
+.home-item img{
+    weight:500px;
+    height: 550px;
+}
